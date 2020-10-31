@@ -1,0 +1,185 @@
+body {
+	background-color: rgba(209, 196, 186,.5);
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 100%;
+	margin: auto;
+	box-sizing: border-box;
+}
+header {
+background-color: rgb(209, 209, 209);
+	overflow: auto;
+}
+header h3 {
+text-align: center;
+}
+header h4{
+	text-align: center;
+}
+.sosialmedia {
+	box-sizing: border-box;
+	background-color: rgb(92, 16, 16);
+	overflow: auto;
+	}
+
+.sosmed li {
+	display: inline;
+	padding: 12px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 18px;
+}
+nav {
+	border:1px solid;
+	box-sizing: border-box;
+	padding: 5px;
+	background-color: rgba(31, 47, 171);
+}
+nav ul li {
+	display: inline;
+	padding: 15px;
+	border:1.5px solid;
+	border-radius: 5px;
+}
+nav ul li a{
+		text-decoration: none;
+		color:black;
+}
+nav ul li a:hover{
+	color:white;
+}
+
+.menuberita{
+	overflow: auto;
+	background-color: rgba(34, 52, 191);
+
+}
+.brt {
+	padding: 5px;
+	text-align: center;
+}
+.brt li {
+	display: inline;
+	border:1px solid;
+	padding:8px;
+	border-radius: 8px;
+	font-size: 15px;
+
+}
+
+.brt li a{
+	text-decoration: none;
+}
+.warna1{
+	color:red;
+}
+.brt li a:hover {
+color:white;
+}
+
+main {
+	width: 100%;
+}
+.content {
+	width: 100%;
+	box-sizing: border-box;
+	display:inline-block;
+	background-color: rgb(245, 254, 255);
+}
+.content h3{
+	margin-left: 2px;
+	font-size: 18px;
+}
+
+.footer {
+	background-color: black;
+	border:1px solid;
+	opacity: .8;
+}
+.footer h4{
+	text-align: center;
+	color:white;
+	font-size: 13px;
+}
+.beritacovid h2 {
+	text-align: center;
+}
+.beritacovid {
+		text-align: center;
+}
+.beritacovid p{
+	text-align: left;
+}
+.pict1:hover,
+.pict2:hover,
+.pict3:hover {
+	transform: scale(1.2);
+	}
+#begadang {
+	text-align: center;
+}
+#begadang p{
+	text-align: left;
+}
+.active {
+	color:white;
+}
+
+.daunmint {
+	text-align: center;
+}
+
+.daunmint p{
+	text-align: left;
+}
+
+@media screen and (max-width: 500px){
+	nav ul {
+		text-align: center;
+		margin-right: 35px;
+	}
+	.content {
+		width: auto;
+	}
+	aside {
+	width: 100%;
+	padding: 0;
+	margin:auto;
+		}
+ 	.brt li {
+ 		display: inline;
+ 	}
+
+	aside article span {
+		margin-left: 15px;
+		font-size: 20px;
+	}
+	#kotakabout {
+		width: 100%;
+	background-color: rgba(245, 209, 181);
+	overflow: auto;
+	display: inline-block;
+}
+	aside {
+		background-color: rgb(245, 254, 255);
+	}	
+}
+
+
+@media screen and (max-width: 320px) {
+	
+	nav {
+		width: 100%;
+	}
+
+	nav ul  {
+		margin-right: 0px;
+		text-align: unset;
+	}
+	.brt li {
+		display: list-item;
+	}
+	
+}
