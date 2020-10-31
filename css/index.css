@@ -374,4 +374,8 @@ font-size: 15px;
 	#kotakabout {
 	background-color: rgb(34, 196, 224);
 	}
+	.box {
+		width: 100%;
+		margin: 0px;
+	}
 }
