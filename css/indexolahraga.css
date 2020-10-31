@@ -166,7 +166,7 @@ color:white;
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
 	
 	nav {
 		width: 100%;
@@ -179,5 +179,7 @@ color:white;
 	.brt li {
 		display: list-item;
 	}
-	
+	#kotakabout {
+	background-color: rgb(34, 196, 224);
+	}
 }
