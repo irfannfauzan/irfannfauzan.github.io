@@ -10,7 +10,7 @@ body {
 	box-sizing: border-box;
 }
 header {
-	background-color: rgb(209, 209, 209);
+	background-color: yellow;
 	overflow: auto;
 }
 header h2 {
