@@ -3,14 +3,17 @@ body {
 	margin:0px;
 	padding:0px;
 	box-sizing: border-box;
+	font-family: sans-serif;
 }
 .container {
 	width: 100%;
 	margin: auto;
 	box-sizing: border-box;
+		background-color: rgb(209, 209, 209);
+
 }
 header {
-	background-color: yellow;
+	background-color: rgb(209, 209, 209);
 	overflow: auto;
 }
 header h2 {
@@ -354,11 +357,12 @@ font-size: 15px;
 }
 	aside {
 		background-color: rgb(245, 254, 255);
-	}	
+	}
+	
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 350px) {
 	
 	nav {
 		width: 100%;
@@ -378,4 +382,43 @@ font-size: 15px;
 		width: 100%;
 		margin: 0px;
 	}
+
+}
+.inibutton {
+	  cursor: pointer;
+	  font-size: 13px;
+	background-color: rgba(31, 47, 171);
+  color: #fff;
+  padding: 13px;
+  border-radius: 5px;
+}
+
+.inibutton:hover, 
+.inibutton:focus {
+	background-color: rgba(34, 52, 191);
+}
+
+.kebawah {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width : 125px;
+  text-align: center;
+}
+
+.kebawah a {
+  color: black;
+  text-decoration: none;
+  padding:10px;
+  display: block;
+}
+
+.kebawah a:hover
+ {
+	background-color: rgb(209, 209, 209);
+ 	color:red;
+ }
+.show 
+{
+	display:block;
 }

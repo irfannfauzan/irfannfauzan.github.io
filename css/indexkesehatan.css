@@ -4,6 +4,7 @@ body {
 	padding:0px;
 }
 .container {
+	background-color: rgb(209, 209, 209);
 	width: 100%;
 	margin: auto;
 	box-sizing: border-box;
@@ -135,7 +136,8 @@ main {
 	text-align: left;
 }
 
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 768px){
 	nav ul {
 		text-align: center;
 		margin-right: 35px;
@@ -158,13 +160,14 @@ main {
 	}
 	#kotakabout {
 		width: 100%;
-	background-color: rgba(245, 209, 181);
+	background-color: rgb(34, 196, 224);
 	overflow: auto;
 	display: inline-block;
 }
 	aside {
 		background-color: rgb(245, 254, 255);
-	}	
+	}
+	
 }
 
 
@@ -181,7 +184,44 @@ main {
 	.brt li {
 		display: list-item;
 	}
-	#kotakabout {
-	background-color: rgb(34, 196, 224);
-	}
+	
+}
+
+.inibutton {
+	  cursor: pointer;
+	  font-size: 13px;
+	background-color: rgba(31, 47, 171);
+  color: #fff;
+  padding: 13px;
+  border-radius: 5px;
+}
+
+.inibutton:hover, 
+.inibutton:focus {
+	background-color: rgba(34, 52, 191);
+}
+
+.kebawah {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width : 125px;
+  text-align: center;
+}
+
+.kebawah a {
+  color: black;
+  text-decoration: none;
+  padding:10px;
+  display: block;
+}
+
+.kebawah a:hover
+ {
+	background-color: rgb(209, 209, 209);
+ 	color:red;
+ }
+.show 
+{
+	display:block;
 }
