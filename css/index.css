@@ -70,7 +70,7 @@ nav ul li a:hover {
 	border:1px solid;
 	padding:8px;
 	border-radius: 8px;
-	font-size: 15px;
+	font-size: 13px;
 }
 .brt li:hover {
 		transform:scale(1.2);
@@ -362,7 +362,7 @@ font-size: 15px;
 }
 
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
 	
 	nav {
 		width: 100%;
