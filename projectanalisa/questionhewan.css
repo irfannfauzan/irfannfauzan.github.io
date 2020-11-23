@@ -3,11 +3,11 @@ body{margin:0;
 }
 .container {
 	width : 100%;
-	height: auto;
+	height: 900;
 	margin: auto;
 }
 .header {
-	overflow: auto;
+		overflow: auto;
 	width : auto;
 	height: 50px;
 	background-color: rgb(33, 194, 148);
@@ -24,7 +24,7 @@ body{margin:0;
 }
 .pertanyaan {
 	width:auto;
-	height: 700px;
+	height: 750px;
 
 }
 .pengertian h2 {
@@ -79,5 +79,12 @@ footer p{
 	color:black;
 }
 .nav a:hover {
+	color:white;
+}
+.button a{
+	text-decoration: none;
+	color:black;
+}
+.button a:hover{
 	color:white;
 }

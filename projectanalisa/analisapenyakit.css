@@ -4,11 +4,10 @@ body{margin:0;
 .container {
 	width : 100%;
 	height: auto;
-	border:1px solid;
 	margin: auto;
 }
 .header {
-	border:2px solid;
+	overflow: auto;
 	width : auto;
 	height: 50px;
 	background-color: rgb(33, 194, 148);
@@ -16,15 +15,16 @@ body{margin:0;
 .nav li {
 	display: inline;
 	padding: 10px;
+	border:1px solid;
+	border-radius: 5px;
 }
 .nav li:hover {
 	color:white;
 	cursor: pointer;
 }
 .pertanyaan {
-	border:1px solid;
 	width:auto;
-	height: 500px;
+	height: 700px;
 
 }
 .pengertian h2 {

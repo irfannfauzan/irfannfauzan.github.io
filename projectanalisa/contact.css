@@ -1,14 +1,14 @@
 body{margin:0;
 	padding: 0;
+	box-sizing: border-box;
 }
 .container {
 	width : 100%;
 	height: 750px;
-	border:1px solid;
 	margin: auto;
 }
 .header {
-	border:2px solid;
+	overflow: auto;
 	width : auto;
 	height: 50px;
 	background-color: rgb(33, 194, 148);
@@ -16,17 +16,18 @@ body{margin:0;
 .nav li {
 	display: inline;
 	padding: 10px;
+	border:1px solid;
+	border-radius: 5px;
 }
 .nav li:hover {
 	color:white;
 	cursor: pointer;
 }
 .image {
-	border:1px solid;
 	width:auto;
 	height: 500px;
-	background-image: url(pic2.jpg);
-}
+	background-image: url(picx.jpg);
+	}
 .pengertian h2 {
 	text-align: center;
 	color:red;

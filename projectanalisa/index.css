@@ -4,28 +4,28 @@ body{margin:0;
 .container {
 	width : 100%;
 	height: 750px;
-	border:1px solid;
 	margin: auto;
 }
 .header {
-	border:2px solid;
 	width : auto;
 	height: 50px;
 	background-color: rgb(33, 194, 148);
+	overflow: auto;
 }
 .nav li {
 	display: inline;
 	padding: 10px;
+	border:1px solid;
+	border-radius: 5px;
 }
 .nav li:hover {
 	color:white;
 	cursor: pointer;
 }
 .image {
-	border:1px solid;
 	width:auto;
 	height: 500px;
-	background-image: url(pic.jpg);
+	background-image: url(picxx.jpg);
 }
 .pengertian h2 {
 	text-align: center;
@@ -49,4 +49,14 @@ footer p{
 }
 .nav a:hover {
 	color:white;
+}
+@media screen and (max-width: 320px){
+	.image{
+		background-size: 320px 500px;
+	}
+}
+@media screen and (max-width: 450px){
+	.image{
+		background-size: 900px 500px;
+	}
 }
