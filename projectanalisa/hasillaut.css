@@ -1,0 +1,85 @@
+body{margin:0;
+	padding: 0;
+}
+.container {
+	width : 100%;
+	height: 750px;
+	border:1px solid;
+	margin: auto;
+}
+.header {
+	border:2px solid;
+	width : auto;
+	height: 50px;
+	background-color: rgb(33, 194, 148);
+}
+.nav li {
+	display: inline;
+	padding: 10px;
+}
+.nav li:hover {
+	color:white;
+	cursor: pointer;
+}
+
+.pengertian h2 {
+	text-align: center;
+	color:red;
+}
+.pengertian p {
+	text-align: center;
+}
+footer {
+	text-align: center;
+	background-color: black;
+	overflow: auto;
+	width:100%;
+	margin: auto;
+}
+footer p{
+	color:white;
+}
+.pengertian {
+	margin-top: 50px;
+}
+.button {
+	width:200px;
+	border:1px solid;
+	margin: auto;
+	text-align: center;
+	margin-top: 200px;
+	background-color: rgb(33, 194, 148,0.7);
+}
+.button:hover {
+	cursor: pointer;
+}
+
+.button1 {
+	width:200px;
+	border:1px solid;
+	margin: auto;
+	text-align: center;
+	margin-top: 10px;
+	background-color: rgb(33, 194, 148,0.7);
+}
+.button1:hover {
+	cursor: pointer;
+}
+
+.nav a{
+	text-decoration: none;
+	color:black;
+}
+.nav a:hover {
+	color:white;
+}
+.button a,
+.button1 a {
+	text-decoration: none;
+	color:black;
+}
+
+.button a:hover,
+.button1 a:hover {
+	color:white;
+}
