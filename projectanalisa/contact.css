@@ -24,9 +24,7 @@ body{margin:0;
 	cursor: pointer;
 }
 .image {
-	width:auto;
-	height: 500px;
-	background-image: url(picx.jpg);
+	margin: auto;
 	}
 .pengertian h2 {
 	text-align: center;
